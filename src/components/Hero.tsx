@@ -31,23 +31,22 @@ export default function Hero() {
 
                 {/* PRESENTATION */}
                 <div className="flex flex-col justify-center items-center text-center md:items-start md:text-left relative z-20 -mt-20 md:mt-0">
-                    <motion.div
-                        initial={{ x: "-100%", opacity: 0 }}
-                        animate={{ x: "0%", opacity: 1 }}
-                        transition={{ delay: 2, duration: 1, ease: "easeInOut" }}
-                        className="font-space text-[clamp(2rem,6vw,4rem)] font-bold text-[#2a2a2a] leading-none [-webkit-text-stroke:1px_#2a2a2a] mt-40 md:mt-0"
-                    >
-                        Software Engineer
-                    </motion.div>
-
                     <motion.h1
                         initial={{ x: "-200%", opacity: 0 }}
                         animate={{ x: "0%", opacity: 1 }}
-                        transition={{ delay: 2.3, duration: 1, ease: "easeInOut" }}
-                        className="font-space w-fit text-[clamp(3rem,7vw,8rem)] font-bold leading-none tracking-tighter text-[#e8e8e8] transition-all duration-300 ease-out hover:scale-105 hover:text-accent drop-shadow-[0_0_15px_#ffffff60] hover:drop-shadow-[0_0_15px_#c50c0c90]"
+                        transition={{ delay: 2.2, duration: 1, ease: "easeInOut" }}
+                        className="font-satoshi w-fit text-[clamp(3rem,6vw,6rem)] mt-40 md:mt-0 font-bold leading-none tracking-tighter text-[#e8e8e8] transition-all duration-300 ease-out hover:scale-105 hover:text-accent drop-shadow-[0_0_15px_#ffffff60] hover:drop-shadow-[0_0_15px_#c50c0c90]"
                     >
                         Tomás Merlonetti
                     </motion.h1>
+                    <motion.div
+                        initial={{ x: "-100%", opacity: 0 }}
+                        animate={{ x: "0%", opacity: 1 }}
+                        transition={{ delay: 2.4, duration: 1, ease: "easeInOut" }}
+                        className="font-satoshi text-[clamp(1.5rem,4vw,3rem)] font-bold text-[#6a6a6a] leading-none"
+                    >
+                        Software Engineer
+                    </motion.div>
                 </div>
 
                 {/* 3D MODEL CONTAINER */}

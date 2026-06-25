@@ -29,7 +29,7 @@ export default function Footer() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5 }}
-                    className="font-mono text-[#ff0000] text-sm uppercase tracking-widest mb-6"
+                    className="font-mono text-[#ff0000] text-sm uppercase tracking-widest mb-6 whitespace-nowrap"
                 >
                     Have a project in mind?
                 </motion.p>
@@ -41,7 +41,7 @@ export default function Footer() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.7, delay: 0.1 }}
-                    className="font-satoshi font-bold text-[clamp(4rem,12vw,12rem)] leading-none text-[#e8e8e8] tracking-tighter hover:text-[#ff0000] transition-colors duration-500 drop-shadow-[0_0_15px_#ffffff30] hover:drop-shadow-[0_0_15px_#c50c0c70]"
+                    className="font-satoshi whitespace-nowrap font-bold text-[clamp(4rem,12vw,12rem)] leading-none text-[#e8e8e8] tracking-tighter hover:text-[#ff0000] transition-colors duration-500 drop-shadow-[0_0_15px_#ffffff30] hover:drop-shadow-[0_0_15px_#c50c0c70]"
                 >
                     Let's talk.
                 </motion.a>
